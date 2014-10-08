@@ -5,8 +5,8 @@ AXI BFM verification enviroment using DPI-C
 
 1. Getting AXI Slave model from "ikwzm" 
  https://github.com/ikwzm/
-2. Created testbench (by Fujisaki-san)
-3. Created C-code (by Sasaki-san)
+2. Created testbench
+3. Created C-code
 4. Modified testbench, added DPI-C
 
 * command.txt : used commands on the Aldec's Riviera-PRO
