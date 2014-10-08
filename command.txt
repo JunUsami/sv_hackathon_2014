@@ -1,0 +1,3 @@
+alog -work masterbfm -msg 5 -dbg -protect 0 -quiet -sve tb.v  axi_slave_BFM.v -dpiheader dpiheader.h
+ccomp -dpi -o debug/dpi_lib -dbg main.c read_burst.c
+asim -dbg -t 0 -dataset {D:/Aldec/MasterBFM/MasterBFM/MasterBFM} -datasetname {sim} masterbfm.tb -sv_lib debug/dpi_lib
